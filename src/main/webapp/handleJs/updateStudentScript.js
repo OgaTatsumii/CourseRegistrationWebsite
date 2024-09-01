@@ -1,0 +1,1 @@
+const updateButtons = document.querySelectorAll('.btn-update');

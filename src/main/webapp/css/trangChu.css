@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+}
+.max-width {
+    max-width: 100%;
+    background-color: #920000;
+    display: flex; /* Sử dụng display flex */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.body-margin{
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+}
+
+.navbar-no-padding-top {
+    padding-top: 0 !important;
+}
+
+.pic-style{
+	height:1505px;
+	width:520px;
+}
+
+.button_gird{
+	height:72px !important;
+	background-color: rgb(222, 34, 25) !important;
+	margin-right:15px !important;
+}
+
+.font-white{
+	color:white !important;
+	text-align:center !important;
+	font-weight:500 !important;
+	font-size:14px !important;
+	color:white !important;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.infor-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;   
+    background: #ededed;    
+}
+
+.news-container {   
+    padding: 10px;
+}
+
+.news-header {
+    background-color:#920000;;
+    color: #fff;
+    padding: 8px 8px 8px 24px;
+    margin: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.news-title {
+    margin: 0;
+}
+
+.news-list-items {
+    padding: 16px 0 0;
+    margin: 0;
+    background: #fff;
+    box-shadow: #797979 1px 1px 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.news-item {
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.news {
+    width: 30%;
+}
+
+.notice {
+    width: 70%;
+}
+
+.notice-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-area {
+/*     height: 40px !important;
+ */}
+
+.search-btn {
+    background: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 4px 3px;
+}
+
+.notice-item {
+    list-style: none;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.date {
+    font-size: 12px;
+    color: #797979;
+    font-style: italic;
+}
+
+.news-item:hover, .notice-item:hover {
+    color: #ce0a55;
+}
+
+.announce1 {
+	width: 100%;
+}
+
+#jsp-file {
+	width: -webkit-fill-available;
+}
+
